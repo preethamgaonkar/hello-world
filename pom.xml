@@ -30,12 +30,12 @@
     <repository>
         <id>central</id>
         <name>b4c3c1396d90-releases</name>
-        <url>http://3.235.170.116:8081/artifactory/new-maven-repo</url>
+        <url>http://3.233.224.195:8082/artifactory/on-prem-repo</url>
     </repository>
     <snapshotRepository>
         <id>central</id>
         <name>b4c3c1396d90-snapshots</name>
-        <url>http://3.235.170.116:8081/artifactory/new-maven-repo</url>
+        <url>http://3.233.224.195:8082/artifactory/on-prem-repo</url>
     </snapshotRepository>
   </distributionManagement>
 
