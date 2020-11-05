@@ -27,16 +27,18 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+<distributionManagement>
     <repository>
         <id>central</id>
-        <name>jfrog-releases</name>
-        <url>http://54.173.67.38:8081/artifactory/repo</url>
+        <name>b4c3c1396d90-releases</name>
+        <url>http://3.235.170.116:8081/artifactory/new-maven-repo</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog-snapshots</name>
-        <url>http://54.173.67.38:8081/artifactory/repo</url>
+        <id>central</id>
+        <name>b4c3c1396d90-snapshots</name>
+        <url>http://3.235.170.116:8081/artifactory/new-maven-repo</url>
     </snapshotRepository>
+</distributionManagement>
   </distributionManagement>
 
   <build>
