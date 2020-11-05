@@ -38,7 +38,6 @@
         <name>b4c3c1396d90-snapshots</name>
         <url>http://3.235.170.116:8081/artifactory/new-maven-repo</url>
     </snapshotRepository>
-</distributionManagement>
   </distributionManagement>
 
   <build>
